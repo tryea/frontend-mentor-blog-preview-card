@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        figtree: ["var(--font-figtree)"],
+      },
+      colors: {
+        yellow: "#F4D04E",
+        black: "#111111",
+        grey: "#7F7F7F",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
