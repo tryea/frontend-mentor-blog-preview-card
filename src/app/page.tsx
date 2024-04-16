@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-1 h-dvh items-center justify-center bg-yellow font-figtree">
+    <main className="flex flex-1 h-dvh items-center justify-center bg-yellow font-figtree tracking-[0%">
       <div className="flex h-fit flex-col p-6 gap-6 rounded-[20px] w-[327px] sm:w-[384px] bg-white shadow-[16px_16px_#000000] sm:shadow-[8px_8px_#000000] border border-black">
         <div className="relative w-full h-[200px] rounded-[10px]">
           <Image
@@ -13,13 +13,13 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col gap-3">
-          <div className="bg-yellow px-3 py-1 w-fit rounded-[4px] text-black text-sm leading-normal font-extrabold">
+          <div className="bg-yellow px-3 py-1 w-fit rounded-[4px] text-black text-sm leading-normal font-extrabold tracking-[0%">
             Learning
           </div>
-          <p className="text-black text-sm leading-normal font-normal">
+          <p className="text-black text-sm leading-normal font-normal tracking-[0%">
             Published 21 Dec 2023
           </p>
-          <h2 className="hover:text-yellow text-black text-2xl leading-normal font-extrabold">
+          <h2 className="hover:text-yellow text-black text-2xl leading-normal font-extrabold tracking-[0%]">
             HTML & CSS foundations
           </h2>
           <p className="text-grey text-base leading-normal font-medium">
