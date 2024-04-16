@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex flex-1 h-dvh items-center justify-center bg-yellow font-figtree">
-      <div className="flex h-fit flex-col p-6 gap-6 rounded-[20px] w-[327px] sm:w-[384px] bg-white">
+      <div className="flex h-fit flex-col p-6 gap-6 rounded-[20px] w-[327px] sm:w-[384px] bg-white shadow-[16px_16px_#000000] sm:shadow-[8px_8px_#000000] border border-black">
         <div className="relative w-full h-[200px] rounded-[10px]">
           <Image
             src={"/images/illustration-article.svg"}
