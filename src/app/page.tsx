@@ -13,7 +13,7 @@ export default function Home() {
           />
         </div>
         <div className="flex flex-col gap-3">
-          <div className="bg-yellow px-3 py-1 w-fit rounded-[4px] text-black text-sm leading-normal font-bold">
+          <div className="bg-yellow px-3 py-1 w-fit rounded-[4px] text-black text-sm leading-normal font-extrabold">
             Learning
           </div>
           <p className="text-black text-sm leading-normal font-normal">
